@@ -229,6 +229,8 @@ header {
 .team {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  background-color: white;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .team:last-child {
   margin-right: 0px;
@@ -275,10 +277,8 @@ address {
   text-align: center;
   border: none;
   margin-right: 8px;
-
   border-radius: 4px;
 }
-
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--accent-color);
@@ -293,6 +293,7 @@ address {
   line-height: 1.62;
   color: var(--main-title-color);
 }
+
 .project-list {
   display: flex;
   flex-wrap: wrap;
